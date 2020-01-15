@@ -1,0 +1,30 @@
+///// linux command line ////////
+
+///Step 1:  create the folder where to download the files 
+///  to run into the folder
+# cd /srv/shiny-server/parafish
+
+// Step 2: Initialize a Git repository
+
+# git init 
+
+// Step 3: Enable Sparse Checkouts
+# git config core.sparseCheckout true 
+
+// Step 4: Tell Git which directories from the remote repository you want
+
+# echo apps/Parafish_economic_tool >> .git/info/sparse-checkout
+
+//Step 5: Add the remote repository
+
+# git remote add origin -f https://github.com/CefasRepRes/r_shiny
+
+//Step 6:  Fetch the files
+
+# git pull origin master
+
+
+
+
+
+
