@@ -1,3 +1,5 @@
+//extracted from https://kbroman.org/github_tutorial/pages/fork.html
+
 //Set up ssh on your computer. I like Roger Peng’s guide to setting up password-less logins. 
 // Also see github’s guide to generating SSH keys.
 
