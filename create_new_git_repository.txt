@@ -2,6 +2,8 @@
 
 # git config --global user.name "roimartins"
 # git config --global user.email "roi.martinez.lorenzo@gmail.com"
+# git config --global color.ui true
+git config --global core.editor nano
 
 //Step 2: Initialize the git repository in the folder with files to be included in the version control system
 
@@ -45,3 +47,9 @@
 /// view the difference with the previsu file version 
 
 # git diff
+
+/// if agree with changes these have to be commited to the repository 
+
+# git commit -m "message describing the actions"
+
+
