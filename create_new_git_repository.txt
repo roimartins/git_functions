@@ -1,0 +1,47 @@
+//Step1: Configure the personal details of git in your computer
+
+# git config --global user.name "roimartins"
+# git config --global user.email "roi.martinez.lorenzo@gmail.com"
+
+//Step 2: Initialize the git repository in the folder with files to be included in the version control system
+
+# git init
+
+//Step 3: add all files and folders into the repository 
+# git add .
+
+// Step 4: commit files into the repository with the message description
+
+# git commit -m "current nginx config files added to repository"
+
+
+
+// Rename the files or directories in the repository
+
+# git mv old_name new_name
+
+// Remove files or directories from repositories
+
+# git rm name_file
+
+// Remove all files in directories from repositories
+
+# git rm -r name_directory
+
+
+// after all these previosu actions , changes have to be commited as before:
+
+# git commit -m "message describing the actions"
+
+/////////////////////////
+//View changes and current status
+//////////////////////////////////
+
+// view current modification status .
+// if change in file happens it will be detected , but not changed in the repository until commited 
+
+# git status
+
+/// view the difference with the previsu file version 
+
+# git diff
