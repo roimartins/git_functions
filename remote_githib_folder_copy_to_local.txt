@@ -19,6 +19,14 @@
 
 # git remote add origin -f https://github.com/CefasRepRes/r_shiny
 
+  -- check the remote origin has been correct set up
+
+  git remote -v
+
+  --in case it wasnt 
+
+  git remote set-url origin git@hostname:USERNAME/REPOSITORY.git
+
 //Step 6:  Fetch the files
 
 # git pull origin master
